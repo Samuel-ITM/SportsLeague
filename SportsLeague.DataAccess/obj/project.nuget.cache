@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6ghuyZJfGr0=",
+  "dgSpecHash": "/tiU1pdOU9U=",
   "success": true,
-  "projectFilePath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj",
+  "projectFilePath": "/home/samuel/GitITM/SportsLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj",
   "expectedPackageFiles": [
     "/home/samuel/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/samuel/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

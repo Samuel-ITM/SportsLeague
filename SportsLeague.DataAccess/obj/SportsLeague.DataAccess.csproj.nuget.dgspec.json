@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj": {}
+    "/home/samuel/GitITM/SportsLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj": {}
   },
   "projects": {
-    "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj": {
+    "/home/samuel/GitITM/SportsLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj",
+        "projectUniqueName": "/home/samuel/GitITM/SportsLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj",
         "projectName": "SportsLeague.DataAccess",
-        "projectPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj",
+        "projectPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj",
         "packagesPath": "/home/samuel/.nuget/packages/",
-        "outputPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/",
+        "outputPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/samuel/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/SportsLeague.Domain.csproj": {
-                "projectPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/SportsLeague.Domain.csproj"
+              "/home/samuel/GitITM/SportsLeague/SportsLeague.Domain/SportsLeague.Domain.csproj": {
+                "projectPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.Domain/SportsLeague.Domain.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/SportsLeague.Domain.csproj": {
+    "/home/samuel/GitITM/SportsLeague/SportsLeague.Domain/SportsLeague.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/SportsLeague.Domain.csproj",
+        "projectUniqueName": "/home/samuel/GitITM/SportsLeague/SportsLeague.Domain/SportsLeague.Domain.csproj",
         "projectName": "SportsLeague.Domain",
-        "projectPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/SportsLeague.Domain.csproj",
+        "projectPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.Domain/SportsLeague.Domain.csproj",
         "packagesPath": "/home/samuel/.nuget/packages/",
-        "outputPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/",
+        "outputPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/samuel/.nuget/NuGet/NuGet.Config"

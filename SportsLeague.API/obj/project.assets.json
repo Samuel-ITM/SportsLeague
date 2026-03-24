@@ -4602,11 +4602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.API/SportsLeague.API.csproj",
+      "projectUniqueName": "/home/samuel/GitITM/SportsLeague/SportsLeague.API/SportsLeague.API.csproj",
       "projectName": "SportsLeague.API",
-      "projectPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.API/SportsLeague.API.csproj",
+      "projectPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.API/SportsLeague.API.csproj",
       "packagesPath": "/home/samuel/.nuget/packages/",
-      "outputPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.API/obj/",
+      "outputPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/samuel/.nuget/NuGet/NuGet.Config"
@@ -4621,11 +4621,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj": {
-              "projectPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj"
+            "/home/samuel/GitITM/SportsLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj": {
+              "projectPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.DataAccess/SportsLeague.DataAccess.csproj"
             },
-            "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/SportsLeague.Domain.csproj": {
-              "projectPath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/SportsLeague.Domain.csproj"
+            "/home/samuel/GitITM/SportsLeague/SportsLeague.Domain/SportsLeague.Domain.csproj": {
+              "projectPath": "/home/samuel/GitITM/SportsLeague/SportsLeague.Domain/SportsLeague.Domain.csproj"
             }
           }
         }
