@@ -1,0 +1,12 @@
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/bin/Debug/net9.0/SportsLeague.Domain.deps.json
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/bin/Debug/net9.0/SportsLeague.Domain.dll
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/bin/Debug/net9.0/SportsLeague.Domain.pdb
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/SportsLeague.Domain.csproj.AssemblyReference.cache
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/SportsLeague.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/SportsLeague.Domain.AssemblyInfoInputs.cache
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/SportsLeague.Domain.AssemblyInfo.cs
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/SportsLeague.Domain.csproj.CoreCompileInputs.cache
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/SportsLeague.Domain.dll
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/refint/SportsLeague.Domain.dll
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/SportsLeague.Domain.pdb
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/obj/Debug/net9.0/ref/SportsLeague.Domain.dll

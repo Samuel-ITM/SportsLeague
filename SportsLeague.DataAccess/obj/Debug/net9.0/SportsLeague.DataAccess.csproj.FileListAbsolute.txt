@@ -1,0 +1,17 @@
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/bin/Debug/net9.0/SportsLeague.DataAccess.deps.json
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/bin/Debug/net9.0/SportsLeague.DataAccess.runtimeconfig.json
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/bin/Debug/net9.0/SportsLeague.DataAccess.dll
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/bin/Debug/net9.0/SportsLeague.DataAccess.pdb
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/bin/Debug/net9.0/SportsLeague.Domain.dll
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/bin/Debug/net9.0/SportsLeague.Domain.pdb
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLeague.DataAccess.csproj.AssemblyReference.cache
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLeague.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLeague.DataAccess.AssemblyInfoInputs.cache
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLeague.DataAccess.AssemblyInfo.cs
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLeague.DataAccess.csproj.CoreCompileInputs.cache
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLe.95752F64.Up2Date
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLeague.DataAccess.dll
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/refint/SportsLeague.DataAccess.dll
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLeague.DataAccess.pdb
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/SportsLeague.DataAccess.genruntimeconfig.cache
+/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.DataAccess/obj/Debug/net9.0/ref/SportsLeague.DataAccess.dll

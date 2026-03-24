@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+BOFfNDGcpo=",
+  "success": true,
+  "projectFilePath": "/home/samuel/Documents/ASW/SoccerLeague/SportsLeague.Domain/SportsLeague.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/samuel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.4/microsoft.extensions.dependencyinjection.abstractions.10.0.4.nupkg.sha512",
+    "/home/samuel/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.4/microsoft.extensions.logging.abstractions.10.0.4.nupkg.sha512",
+    "/home/samuel/.nuget/packages/system.diagnostics.diagnosticsource/10.0.4/system.diagnostics.diagnosticsource.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
