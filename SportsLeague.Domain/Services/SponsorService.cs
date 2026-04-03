@@ -118,7 +118,7 @@ public class SponsorService : ISponsorService
         await _sponsorRepository.DeleteAsync(id);
     }
 
-    public async Task RegisterSponsorToTournamentAsync(int sponsorId, int tournamentId, decimal contractAmount)
+    public async Task<TournamentSponsor> RegisterSponsorToTournamentAsync(int sponsorId, int tournamentId, decimal contractAmount)
     {
         // Validar que el patrocinador existe
         var sponsor = await _sponsorRepository.GetByIdAsync(sponsorId);
@@ -154,7 +154,7 @@ public class SponsorService : ISponsorService
 
         _logger.LogInformation("Registering sponsor {SponsorId} to tournament {TournamentId} with contract amount {ContractAmount}",
         sponsorId, tournamentId, contractAmount);
-        await _tournamentSponsorRepository.CreateAsync(tournamentSponsor);
+        return await _tournamentSponsorRepository.CreateAsync(tournamentSponsor);
     }
 
     public async Task<IEnumerable<Tournament>> GetTournamentsBySponsorAsync(int sponsorId)
@@ -165,6 +165,15 @@ public class SponsorService : ISponsorService
 
         var tournamentSponsors = await _tournamentSponsorRepository.GetBySponsorIdAsync(sponsorId);
         return tournamentSponsors.Select(ts => ts.Tournament);
+    }
+
+    public async Task<IEnumerable<TournamentSponsor>> GetTournamentSponsorshipsBySponsorAsync(int sponsorId)
+    {
+        var sponsor = await _sponsorRepository.GetByIdAsync(sponsorId);
+        if (sponsor == null)
+            throw new KeyNotFoundException($"No se encontró el patrocinador con ID {sponsorId}");
+
+        return await _tournamentSponsorRepository.GetBySponsorIdAsync(sponsorId);
     }
 
     //desvincular patrocinador de torneo

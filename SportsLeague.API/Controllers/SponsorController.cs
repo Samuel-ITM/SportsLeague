@@ -91,12 +91,13 @@ public class SponsorController : ControllerBase
     }
 
     [HttpPost("{id}/tournaments")]
-    public async Task<ActionResult> RegisterSponsorToTournamentAsync(int id, RegisterSponsorToTournamentDTO dto)
+    public async Task<ActionResult<TournamentSponsorResponseDTO>> RegisterSponsorToTournamentAsync(int id, RegisterSponsorToTournamentDTO dto)
     {
         try
         {
-            await _sponsorService.RegisterSponsorToTournamentAsync(id, dto.TournamentId, dto.ContractAmount);
-            return Ok(new { message = "Patrocinador registrado al torneo exitosamente" });
+            var tournamentSponsor = await _sponsorService.RegisterSponsorToTournamentAsync(id, dto.TournamentId, dto.ContractAmount);
+            var responseDto = _mapper.Map<TournamentSponsorResponseDTO>(tournamentSponsor);
+            return CreatedAtAction(nameof(GetTournaments), new { id = id }, responseDto);
         }
         catch (KeyNotFoundException ex)
         {
@@ -109,12 +110,12 @@ public class SponsorController : ControllerBase
     }
 
     [HttpGet("{id}/tournaments")]
-    public async Task<ActionResult<IEnumerable<TournamentResponseDTO>>> GetTournaments(int id)
+    public async Task<ActionResult<IEnumerable<TournamentSponsorResponseDTO>>> GetTournaments(int id)
     {
         try
         {
-            var tournaments = await _sponsorService.GetTournamentsBySponsorAsync(id);
-            return Ok(_mapper.Map<IEnumerable<TournamentResponseDTO>>(tournaments));
+            var tournamentSponsorships = await _sponsorService.GetTournamentSponsorshipsBySponsorAsync(id);
+            return Ok(_mapper.Map<IEnumerable<TournamentSponsorResponseDTO>>(tournamentSponsorships));
         }
         catch (KeyNotFoundException ex)
         {
