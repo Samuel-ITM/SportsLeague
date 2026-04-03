@@ -10,6 +10,21 @@ public class MappingProfile : Profile
 
     public MappingProfile()
     {
+
+        // Sponsor mappings
+        CreateMap<SponsorRequestDTO, Sponsor>();
+        CreateMap<Sponsor, SponsorResponseDTO>();
+
+        // TournamentSponsor mappings
+        CreateMap<TournamentSponsorRequestDTO, TournamentSponsor>();
+        CreateMap<TournamentSponsor, TournamentSponsorResponseDTO>()
+        .ForMember(
+        dest => dest.TournamentName,
+        opt => opt.MapFrom(src => src.Tournament.Name))
+        .ForMember(
+        dest => dest.SponsorName,
+        opt => opt.MapFrom(src => src.Sponsor.Name));
+
         // Referee mappings
         CreateMap<RefereeRequestDTO, Referee>();
         CreateMap<Referee, RefereeResponseDTO>();
