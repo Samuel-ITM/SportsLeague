@@ -10,6 +10,18 @@ public class MappingProfile : Profile
 
     public MappingProfile()
     {
+        // Match mappings 
+    CreateMap<MatchRequestDTO, Match>(); 
+    CreateMap<Match, MatchResponseDTO>() 
+        .ForMember(dest => dest.TournamentName, 
+            opt => opt.MapFrom(src => src.Tournament.Name)) 
+        .ForMember(dest => dest.HomeTeamName, 
+            opt => opt.MapFrom(src => src.HomeTeam.Name)) 
+        .ForMember(dest => dest.AwayTeamName, 
+            opt => opt.MapFrom(src => src.AwayTeam.Name)) 
+        .ForMember(dest => dest.RefereeFullName, 
+            opt => opt.MapFrom(src => 
+            src.Referee.FirstName + " " + src.Referee.LastName)); 
 
         // Sponsor mappings
         CreateMap<SponsorRequestDTO, Sponsor>();
@@ -19,11 +31,11 @@ public class MappingProfile : Profile
         CreateMap<TournamentSponsorRequestDTO, TournamentSponsor>();
         CreateMap<TournamentSponsor, TournamentSponsorResponseDTO>()
         .ForMember(
-        dest => dest.TournamentName,
-        opt => opt.MapFrom(src => src.Tournament.Name))
+            dest => dest.TournamentName,
+            opt => opt.MapFrom(src => src.Tournament.Name))
         .ForMember(
-        dest => dest.SponsorName,
-        opt => opt.MapFrom(src => src.Sponsor.Name));
+            dest => dest.SponsorName,
+            opt => opt.MapFrom(src => src.Sponsor.Name));
 
         // Referee mappings
         CreateMap<RefereeRequestDTO, Referee>();
@@ -33,9 +45,9 @@ public class MappingProfile : Profile
         CreateMap<TournamentRequestDTO, Tournament>();
         CreateMap<Tournament, TournamentResponseDTO>()
         .ForMember(
-        dest => dest.TeamsCount,
-        opt => opt.MapFrom(src =>
-        src.TournamentTeams != null ? src.TournamentTeams.Count : 0));
+            dest => dest.TeamsCount,
+            opt => opt.MapFrom(src =>
+            src.TournamentTeams != null ? src.TournamentTeams.Count : 0));
 
         // Team mappings
         CreateMap<TeamRequestDTO, Team>();
@@ -45,7 +57,7 @@ public class MappingProfile : Profile
         CreateMap<PlayerRequestDTO, Player>();
         CreateMap<Player, PlayerResponseDTO>()
         .ForMember(
-        dest => dest.TeamName,
-        opt => opt.MapFrom(src => src.Team.Name));
+            dest => dest.TeamName,
+            opt => opt.MapFrom(src => src.Team.Name));
     }
 }
