@@ -10,9 +10,27 @@ public class MappingProfile : Profile
 
     public MappingProfile()
     {
+        // MatchResult mappings 
+        CreateMap<MatchResultRequestDTO, MatchResult>(); 
+        CreateMap<MatchResult, MatchResultResponseDTO>(); 
+        
+        // Goal mappings 
+        CreateMap<GoalRequestDTO, Goal>(); 
+        CreateMap<Goal, GoalResponseDTO>() 
+            .ForMember(dest => dest.PlayerName, 
+                opt => opt.MapFrom(src => 
+                    src.Player.FirstName + " " + src.Player.LastName)); 
+        
+        // Card mappings 
+        CreateMap<CardRequestDTO, Card>(); 
+        CreateMap<Card, CardResponseDTO>() 
+            .ForMember(dest => dest.PlayerName, 
+                opt => opt.MapFrom(src => 
+                    src.Player.FirstName + " " + src.Player.LastName)); 
+
         // Match mappings 
-    CreateMap<MatchRequestDTO, Match>(); 
-    CreateMap<Match, MatchResponseDTO>() 
+        CreateMap<MatchRequestDTO, Match>(); 
+        CreateMap<Match, MatchResponseDTO>() 
         .ForMember(dest => dest.TournamentName, 
             opt => opt.MapFrom(src => src.Tournament.Name)) 
         .ForMember(dest => dest.HomeTeamName, 
