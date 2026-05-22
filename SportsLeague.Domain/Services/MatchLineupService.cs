@@ -28,7 +28,9 @@ public class MatchLineupService : IMatchLineupService
     public async Task<MatchLineup> AddPlayerToLineupAsync(int matchId, MatchLineup lineup)
     {
         // V1: El partido debe existir
-        var match = await _validationHelper.ValidateMatchForEventAsync(matchId);
+        var match = await _matchRepo.GetByIdAsync(matchId);
+        if (match == null)
+            throw new KeyNotFoundException($"No se encontró el partido con ID {matchId}");
 
         // V2: El jugador debe existir y V3: El jugador debe pertenecer al HomeTeam o AwayTeam
         await _validationHelper.ValidatePlayerInMatchAsync(lineup.PlayerId, match); 
