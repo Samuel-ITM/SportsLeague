@@ -1,3 +1,4 @@
 # SportsLeague
 
-you shoud modiffy the conecction extirng on appsetting.Development.json, beacaus y use mssql whit docker so mi conection string is diferent
+## INFO
+you shoud modiffy the default conecction string on [appsettings](SportsLeague.API/appsettings.Development.json), beacause I use mssql with docker so my conection string is way diferent
